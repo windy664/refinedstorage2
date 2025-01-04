@@ -9,7 +9,7 @@ on:
 
 jobs:
   publish-release:
-    uses: refinedmods/refinedarchitect/.github/workflows/publish-release.yml@v0.20.0
+    uses: windy664/refinedarchitect/.github/workflows/publish-release.yml@v0.20.0
     secrets: inherit
     with:
       project-name: 'Refined Storage'
