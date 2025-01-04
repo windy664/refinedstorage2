@@ -1,5 +1,11 @@
 name: Publish release
 on:
+  push:
+    paths:
+      - '**/**'  # 监控所有文件的更改
+  pull_request:
+    paths:
+      - '**/**'  # 监控所有文件的更改
   workflow_call:
     inputs:
       mutation-testing:
