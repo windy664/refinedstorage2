@@ -1,10 +1,12 @@
 name: Publish release
 on:
+  push:
+    paths:
+      - '**/**'  # 监控所有文件的更改
   pull_request:
-    branches:
-      - main
-    types:
-      - closed
+    paths:
+      - '**/**'  # 监控所有文件的更改
+
 jobs:
   publish-release:
     uses: refinedmods/refinedarchitect/.github/workflows/publish-release.yml@v0.20.0
