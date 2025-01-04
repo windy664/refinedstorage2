@@ -34,7 +34,7 @@ this mod that allow the player to set up auto-crafting, allowing the crafting of
 
 ## Building
 
-Clone the repository and import the Gradle project.
+Clone the repository and import the Gradle project？？？？
 
 ## Contributing
 
